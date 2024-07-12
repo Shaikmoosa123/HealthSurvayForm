@@ -1,0 +1,164 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-07-12T04:33:06.230Z",
+    "end": "2024-07-12T04:33:26.836Z",
+    "duration": 20606,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "c1d09e1b-ff75-4be4-ad20-387ffb70fc23",
+      "title": "",
+      "fullFile": "cypress\\e2e\\HealthSurveyForm.cy.js",
+      "file": "cypress\\e2e\\HealthSurveyForm.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "70912932-315b-48d0-8c9c-1c8a57eb5d1f",
+          "title": "Health Survey Form Submission Test Suite",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Health Survey Form Submission for Moosa",
+              "fullTitle": "Health Survey Form Submission Test Suite Health Survey Form Submission for Moosa",
+              "timedOut": null,
+              "duration": 5384,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "SurveyPage.visit();\nSurveyPage.enterName(data.name);\nSurveyPage.selectAge(data.age);\nSurveyPage.selectExerciseOption(data.exercise);\nSurveyPage.submitForm();\nSurveyPage.verifySubmission();",
+              "err": {},
+              "uuid": "c3dbd16c-22b1-488a-a8f2-11fb742fd22c",
+              "parentUUID": "70912932-315b-48d0-8c9c-1c8a57eb5d1f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Health Survey Form Submission for Anil",
+              "fullTitle": "Health Survey Form Submission Test Suite Health Survey Form Submission for Anil",
+              "timedOut": null,
+              "duration": 4020,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "SurveyPage.visit();\nSurveyPage.enterName(data.name);\nSurveyPage.selectAge(data.age);\nSurveyPage.selectExerciseOption(data.exercise);\nSurveyPage.submitForm();\nSurveyPage.verifySubmission();",
+              "err": {},
+              "uuid": "3528c12b-1f27-4dab-bb65-7553fd9f8a43",
+              "parentUUID": "70912932-315b-48d0-8c9c-1c8a57eb5d1f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Health Survey Form Submission for Kavya",
+              "fullTitle": "Health Survey Form Submission Test Suite Health Survey Form Submission for Kavya",
+              "timedOut": null,
+              "duration": 3993,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "SurveyPage.visit();\nSurveyPage.enterName(data.name);\nSurveyPage.selectAge(data.age);\nSurveyPage.selectExerciseOption(data.exercise);\nSurveyPage.submitForm();\nSurveyPage.verifySubmission();",
+              "err": {},
+              "uuid": "8b1a4651-6e43-4c54-a069-c8a1c152b20d",
+              "parentUUID": "70912932-315b-48d0-8c9c-1c8a57eb5d1f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Health Survey Form Submission for Renuka",
+              "fullTitle": "Health Survey Form Submission Test Suite Health Survey Form Submission for Renuka",
+              "timedOut": null,
+              "duration": 3647,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "SurveyPage.visit();\nSurveyPage.enterName(data.name);\nSurveyPage.selectAge(data.age);\nSurveyPage.selectExerciseOption(data.exercise);\nSurveyPage.submitForm();\nSurveyPage.verifySubmission();",
+              "err": {},
+              "uuid": "6a332f08-d0ac-48d8-80b4-18283b7e2d2a",
+              "parentUUID": "70912932-315b-48d0-8c9c-1c8a57eb5d1f",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "c3dbd16c-22b1-488a-a8f2-11fb742fd22c",
+            "3528c12b-1f27-4dab-bb65-7553fd9f8a43",
+            "8b1a4651-6e43-4c54-a069-c8a1c152b20d",
+            "6a332f08-d0ac-48d8-80b4-18283b7e2d2a"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 17044,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/mochawesome",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
